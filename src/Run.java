@@ -12,6 +12,7 @@ public class Run {
         while (randomLottoNumbers.size() < 6){
             randomLottoNumbers.add(random.nextInt(49)+1);
         }
+        System.out.println(randomLottoNumbers.size());
 
         System.out.println(randomLottoNumbers);
 
